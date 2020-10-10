@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Userdrive" uuid="94e4c69c-27ad-4a13-a3d4-afda3d49ce97">
+      <driver-ref>9ab38387-ff7f-4c1e-83ad-b2a54a994f1d</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+    </data-source>
+    <data-source source="LOCAL" name="Microsoft SQL" uuid="0c0a7413-d467-4ba4-83c6-bdaa76bca3e3">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://213.233.179.192\java:1433;database=HR;</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="hrhr" uuid="b46eae13-ce7d-4f8a-bb55-b490c2680da7">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/hrhr</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="hrhr [2]" uuid="f86a0c1c-e899-4a84-9aed-5fc4e210447a">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/hrhr.db</jdbc-url>
+    </data-source>
+  </component>
+</project>
